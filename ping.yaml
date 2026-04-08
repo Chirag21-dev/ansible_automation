@@ -1,0 +1,6 @@
+name:Ping the worker nodes
+host:
+become:true
+
+tasks:
+ name:Install 
