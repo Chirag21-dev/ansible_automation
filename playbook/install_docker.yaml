@@ -1,0 +1,5 @@
+- name: This playbook will install docker
+  hosts: servers
+  become: yes
+  roles:
+    - docker
